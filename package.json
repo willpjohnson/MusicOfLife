@@ -1,0 +1,24 @@
+{
+  "name": "MusicOfLife",
+  "version": "1.0.0",
+  "description": "Conway's Game of Life meets Tone Matrix",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/willpjohnson/MusicOfLife.git"
+  },
+  "dependencies": {
+    "webpack": "^3.0.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/willpjohnson/MusicOfLife/issues"
+  },
+  "homepage": "https://github.com/willpjohnson/MusicOfLife#readme"
+}

@@ -1,0 +1,26 @@
+.grid {
+  margin: 0 auto;
+  border: 1px solid white;
+  width: 340px;
+}
+
+.grid-row {
+  width: auto;
+  display: flex;
+  width: 340px;
+}
+
+.grid-row div {
+  border: 1px solid white;
+}
+
+.grid-cell {
+  width: 15px;
+  height: 15px;
+  list-style: none;
+  background-color: #93bcff;
+}
+
+.alive {
+  background-color: #61aa67;
+}
