@@ -8,7 +8,23 @@
   <body>
 
     <script type="application/javascript" src="lib/bundle.js"></script>
+    <div class="information-div">
+      <div class="controls-div">
+        <button id="start" class="controls" type="button">Start</button>
+        <select id="speed" class="controls">
+          <option value="500">Quarter Notes</option>
+          <option value="250">Eighth Notes</option>
+          <option value="125">Sixteenth Notes</option>
+        </select>
+      </div>
+      <div class="preset-div">
+
+      </div>
+    </div>
     <div id="grid" class="grid"></div>
-    <button id="start" type="button">Start</button>
   </body>
 </html>
+<!--
+120 beats per minute
+2 beats per second
+1 beat per 500ms -->

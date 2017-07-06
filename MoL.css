@@ -1,6 +1,8 @@
+/*GRID*/
 .grid {
   margin: 0 auto;
   border: 1px solid white;
+  /* width is 17*num_of_cells */
   width: 340px;
 }
 
@@ -23,4 +25,39 @@
 
 .alive {
   background-color: #61aa67;
+}
+
+/*CONTROLS*/
+.information-div {
+  width: 600px;
+  height: 80px;
+  background-color: red;
+  margin: 10px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.controls-div {
+  width: 350px;
+  height: 70px;
+  margin: 5px;
+  background-color: green;
+  display: flex;
+  justify-content: space-between;
+}
+
+.preset-div {
+  width: 250px;
+  height: 70px;
+  margin: 5px;
+  background-color: green;
+  display: flex;
+  justify-content: space-between;
+}
+
+.controls {
+  position: relative;
+  top: 25px;
+  bottom: 25px;
+  height: 20px;
 }
