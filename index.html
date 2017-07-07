@@ -3,25 +3,41 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="./MoL.css">
+     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+     <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+     <!-- <script src="./Pizzicato.js"></script> -->
     <title>Music of Life</title>
   </head>
   <body>
-
+    <img id="header" src="images/mol.png" alt="MoL-Header" />
     <script type="application/javascript" src="lib/bundle.js"></script>
     <div class="information-div">
       <div class="controls-div">
         <button id="start" class="controls" type="button">Start</button>
+        <button id="reset" class="controls" type="button">Reset</button>
         <select id="speed" class="controls">
-          <option value="500">Quarter Notes</option>
-          <option value="250">Eighth Notes</option>
-          <option value="125">Sixteenth Notes</option>
+          <option value="800">Quarter Notes</option>
+          <option value="600">Dotted Eighth Notes</option>
+          <option selected value="400">Eighth Notes</option>
+          <option value="300">Dotted Sixteenth Notes</option>
+          <option value="200">Sixteenth Notes</option>
         </select>
       </div>
       <div class="preset-div">
 
       </div>
     </div>
-    <div id="grid" class="grid"></div>
+    <div class="grid-frame"><div id="grid" class="grid"></div></div>
+    <div class="links-div">
+      <a class="links"
+        href="https://github.com/willpjohnson"><i class="fa fa-github" aria-hidden="true"></i></a>
+      <a class="links"
+        href="https://www.linkedin.com/in/william-johnson-aa560668/"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+      <a class="links"
+        href="https://angel.co/william-johnson-31?al_content=view+your+profile&al_source=transaction_feed%2Fnetwork_sidebar">
+        <i class="fa fa-angellist" aria-hidden="true"></i></a>
+    </div>
+    <p>by William Johnson</p>
   </body>
 </html>
 <!--
