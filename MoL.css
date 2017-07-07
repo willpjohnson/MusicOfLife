@@ -47,8 +47,23 @@ body {
   background-color: #b7d2ff;
 }
 
-.alive {
-  background-color: #4f8c54;
+/*#009ce5, #00eade*/
+/*0-0 156-234 229-222*/
+/*0,0,0,0   156,182,208,234   229,227,225,222*/
+.col-0.alive {
+  background-color: rgb(0,156,229);
+}
+
+.col-1.alive {
+  background-color: rgb(0,167,227);
+}
+
+.col-2.alive {
+  background-color: rgb(0,178,225);
+}
+
+.col-3.alive {
+  background-color: rgb(0,199,222);
 }
 
 /*CONTROLS*/
@@ -70,7 +85,8 @@ body {
   margin: 5px;
   background-color: #b7d2ff;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  border-radius: 4px;
 }
 
 .preset-div {
@@ -79,14 +95,25 @@ body {
   margin: 5px;
   background-color: #b7d2ff;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  border-radius: 4px;
+}
+
+.options {
+  position: relative;
+  top: 22px;
+  bottom: 22px;
+  height: 26px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 14px;
 }
 
 .controls {
-  position: relative;
-  top: 25px;
-  bottom: 25px;
-  height: 20px;
+  box-shadow: -2px 2px 5px 0px rgba(0,0,0,0.24);
+}
+
+.presets {
+  box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.24);
 }
 
 /*LINKS*/

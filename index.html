@@ -13,9 +13,9 @@
     <script type="application/javascript" src="lib/bundle.js"></script>
     <div class="information-div">
       <div class="controls-div">
-        <button id="start" class="controls" type="button">Start</button>
-        <button id="reset" class="controls" type="button">Reset</button>
-        <select id="speed" class="controls">
+        <button id="start" class="options controls" type="button">Start</button>
+        <button id="reset" class="options controls" type="button">Reset</button>
+        <select id="speed" class="options controls">
           <option value="800">Quarter Notes</option>
           <option value="600">Dotted Eighth Notes</option>
           <option selected value="400">Eighth Notes</option>
@@ -24,7 +24,15 @@
         </select>
       </div>
       <div class="preset-div">
-
+        <select id="presets" class="options presets">
+          <option selected disabled value="">None</option>
+          <option value="singleGlider">Single Glider</option>
+          <option value="fourGliders">Four Gliders</option>
+          <option value="supernova">Supernova</option>
+          <option value="spaceship">Spaceship</option>
+          <option value="spaceships">Two Spaceships</option>
+          <option value="tumbler">Tumbler</option>
+        </select>
       </div>
     </div>
     <div class="grid-frame"><div id="grid" class="grid"></div></div>
