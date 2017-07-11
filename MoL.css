@@ -8,8 +8,34 @@ body {
   text-align: center;
 }
 
-#header {
+/*INSTRUCTIONS*/
+#question-mark {
+  position: absolute;
+  font-size: 30px;
+}
 
+#question-mark:hover {
+  color: white;
+}
+
+.hidden {
+  /*display: none*/
+}
+
+.instructions {
+  position: absolute;
+  background-color: white;
+  border: 1px solid black;
+  font-family: 'Oswald', sans-serif;
+  font-size: 14px;
+  padding: 3px;
+  z-index: 5;
+  box-shadow: -2px 2px 5px 0px rgba(0,0,0,0.24);
+}
+
+.start-ins {
+  top: 205px;
+  left: 18%;
 }
 
 /*GRID*/
@@ -47,9 +73,6 @@ body {
   background-color: #b7d2ff;
 }
 
-/*#009ce5, #00eade*/
-/*0-0 156-234 229-222*/
-/*0,0,0,0   156,182,208,234   229,227,225,222*/
 .col-0.alive {
   background-color: rgb(0,156,229);
 }
