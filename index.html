@@ -9,11 +9,18 @@
     <title>Music of Life</title>
   </head>
   <body>
+    <div class="intro intro-exiter hider"></div>
     <img id="header" src="images/mol.png" alt="MoL-Header" />
     <script type="application/javascript" src="lib/bundle.js"></script>
     <div class="information-div">
 
       <div class="instructions-localizer">
+        <div class="intro intro-box">
+          <div id="x" class="intro intro-exiter"><i class="fa fa-times" aria-hidden="true"></i></div>
+          <h1>Welcome to Music of Life</h1>
+          <p>Music of Life is a cellular automaton inspired by <a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life">Conway's Game of Life</a> combined with a Tone Matrix. Each cell has a musical tone that is sounded when activated during the sequence.<br /><br />Select a preset configuration of cells or create your own, then click 'Start' to commence the sequence and hear its naturally evolving musical phrase.<br /><br />Hover over the ? for more info.</p>
+        </div>
+
         <div class="instructions start-ins hidden">'Start' button<br />commences sequence</div>
         <div class="instructions reset-ins hidden">'Reset' button<br />clears board</div>
         <div class="instructions speed-ins hidden">Select note<br />length (speed)</div>

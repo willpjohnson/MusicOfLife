@@ -8,6 +8,30 @@ body {
   text-align: center;
 }
 
+/*INTRO*/
+.hider {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  opacity: 0.5;
+  background-color: black;
+  z-index: 4;
+}
+
+#x {
+  top: -5px;
+  left: 278px;
+  position: absolute;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+#x:hover {
+  color: #009ce5;
+}
+
 /*INSTRUCTIONS*/
 #question-mark {
   /*position: absolute;*/
@@ -23,7 +47,25 @@ body {
   display: none
 }
 
-.instructions {
+.intro-box {
+  top: 140px;
+  left: 150px;
+  width: 290px;
+}
+
+.intro-box h1 {
+  font-size: 20px;
+}
+
+.intro-box a {
+  color: black;
+}
+
+.intro-box a:hover {
+  color: #009ce5;
+}
+
+.instructions, .intro-box {
   position: absolute;
   background-color: white;
   border: 2px solid black;
@@ -83,6 +125,7 @@ body {
 
 .grid {
   margin: 0 auto;
+  /*left: 10px;*/
   padding-top: 20px;
   border: 1px solid white;
   /* width is 17*num_of_cells */
