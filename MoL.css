@@ -125,11 +125,11 @@ body {
 
 .grid {
   margin: 0 auto;
-  /*left: 10px;*/
   padding-top: 20px;
   border: 1px solid white;
   /* width is 17*num_of_cells */
   width: 340px;
+  cursor: default;
 }
 
 .grid-row {
