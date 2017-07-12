@@ -9,13 +9,20 @@
     <title>Music of Life</title>
   </head>
   <body>
-    <div id="question-mark"><i class="fa fa-question-circle" aria-hidden="true"></i></div>
-    <div class="instructions start-ins hidden">'Start' button <br />commences game</div>
-
     <img id="header" src="images/mol.png" alt="MoL-Header" />
     <script type="application/javascript" src="lib/bundle.js"></script>
     <div class="information-div">
+
+      <div class="instructions-localizer">
+        <div class="instructions start-ins hidden">'Start' button<br />commences sequence</div>
+        <div class="instructions reset-ins hidden">'Reset' button<br />clears board</div>
+        <div class="instructions speed-ins hidden">Select note<br />length (speed)</div>
+        <div class="instructions preset-ins hidden">Select from a list<br />of preset patterns</div>
+        <div class="instructions grid-ins hidden">Click cells in the board to activate.<br />While sequence is occurring, cells evolve like so:<br />1) Live cells with fewer than two live neighbors die.<br />2) Live cells with more than three live neighbors die.<br />3) Live cells with two or three live neighbors survive.<br />4) Dead cells with three live neighbors come alive.</div>
+      </div>
+
       <div class="controls-div">
+        <div id="question-mark"><i class="fa fa-question-circle" aria-hidden="true"></i></div>
         <button id="start" class="options controls" type="button">Start</button>
         <button id="reset" class="options controls" type="button">Reset</button>
         <select id="speed" class="options controls">

@@ -10,7 +10,8 @@ body {
 
 /*INSTRUCTIONS*/
 #question-mark {
-  position: absolute;
+  /*position: absolute;*/
+  margin-top: 18px;
   font-size: 30px;
 }
 
@@ -19,13 +20,14 @@ body {
 }
 
 .hidden {
-  /*display: none*/
+  display: none
 }
 
 .instructions {
   position: absolute;
   background-color: white;
-  border: 1px solid black;
+  border: 2px solid black;
+  border-radius: 3px;
   font-family: 'Oswald', sans-serif;
   font-size: 14px;
   padding: 3px;
@@ -33,9 +35,40 @@ body {
   box-shadow: -2px 2px 5px 0px rgba(0,0,0,0.24);
 }
 
+.instructions-localizer {
+  position: absolute;
+  height: 0;
+  width: 0;
+}
+
 .start-ins {
-  top: 205px;
-  left: 18%;
+  top: 60px;
+  left: -20px;
+  width: 120px;
+}
+
+.reset-ins {
+  top: 60px;
+  left: 130px;
+  width: 80px;
+}
+
+.speed-ins {
+  top: 60px;
+  left: 240px;
+  width: 80px;
+}
+
+.preset-ins {
+  top: 60px;
+  left: 405px;
+  width: 130px;
+}
+
+.grid-ins {
+  top: 200px;
+  left: 162px;
+  width: 270px;
 }
 
 /*GRID*/
